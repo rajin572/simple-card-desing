@@ -1,0 +1,13 @@
+assignment requirements
+
+1. calculate the triangle area input will be only evaluated with triangle and rectangle (both)
+2. after clicking the value will get into area calculation 
+3. first two input field need validation 
+4. 4 type of question need to write down.
+5. every calcuator will have value with init but input field is not nessecsary but the value should calculative
+
+
+1.what is dom and what is the purpose of dom?
+2.how can you select dom element ?
+3.what is event bubbling ?
+4.what is callback function?
