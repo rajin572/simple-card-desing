@@ -29,96 +29,191 @@
     </header>
     <main class="w-11/12 m-auto grid lg:grid-cols-4 gap-3 mt-8">
       <section
-        class="calcuation_part grid lg:col-span-3 lg:grid-cols-3 gap-3 rounded-md border-red-800 "
+        class="calcuation_part grid lg:col-span-3 lg:grid-cols-3 gap-3 rounded-md border-red-800"
       >
-      <!-- calcualtor triangle-->
-        <div class="calculation_card rounded-lg relative  flex flex-col items-center py-[30px] px-[20px]  border-2">
-            <div class="shape-image mb-6">
-              <img class="max-w-full h-48" src="./images/triangle.png" alt="" />
+        <!-- calcualtor triangle-->
+        <div
+          class="calculation_card rounded-lg relative flex flex-col items-center py-[30px] px-[20px] border-2"
+        >
+          <div class="shape-image mb-6">
+            <img class="max-w-full h-48" src="./images/triangle.png" alt="" />
+          </div>
+          <div class="card_info flex items-center flex-col mb-2">
+            <div class="title mb-1 font-bold text-lg">Triangle</div>
+            <div class="formula mb-1 text-sm">
+              Area (A) = 0.5<span>&#215;</span>b<span>&#215;</span> h
             </div>
-            <div class="card_info flex items-center flex-col mb-2">
-              <div class="title mb-1 font-bold text-lg">Triangle</div>
-              <div class="formula mb-1 text-sm">Area (A) = 0.5<span>&#215;</span>b<span>&#215;</span> h</div>
-              <div class="input_part text-xs mt-5 mb-10">
-                  <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">B <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">h <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm
-              </div>
+            <div class="input_part text-xs mt-5 mb-10">
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >B <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >h <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
             </div>
-          <button class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2">Calculate</button>
+          </div>
+          <button
+            class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2"
+          >
+            Calculate
+          </button>
         </div>
-<!-- reangular -->
-        <div class="calculation_card rounded-lg relative  flex flex-col items-center py-[30px] px-[20px]  border-2">
-            <div class="shape-image mb-6">
-              <img class="max-w-full h-48" src="./images/rectangle.png" alt="" />
-            </div>
-            <div class="card_info flex items-center flex-col mb-2">
-              <div class="title mb-1 font-bold text-lg">Rectangle</div>
-              <div class="formula mb-1 text-sm">Area (A) = w <span>&#215;</span> l</div>
-              <div class="input_part text-xs mt-5 mb-10">
-                  <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">B <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">h <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm
-              </div>
-            </div>
-            <button class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2">Calculate</button>
+        <!-- reangular -->
+        <div
+          class="calculation_card rounded-lg relative flex flex-col items-center py-[30px] px-[20px] border-2"
+        >
+          <div class="shape-image mb-6">
+            <img class="max-w-full h-48" src="./images/rectangle.png" alt="" />
           </div>
-<!-- Parallelogram -->
-          <div class="calculation_card rounded-lg relative  flex flex-col items-center py-[30px] px-[20px]  border-2">
-            <div class="shape-image mb-6 h-[189px] ">
-              <img class="max-w-full h-48" src="./images/parallelogram.png" alt="" />
+          <div class="card_info flex items-center flex-col mb-2">
+            <div class="title mb-1 font-bold text-lg">Rectangle</div>
+            <div class="formula mb-1 text-sm">
+              Area (A) = w <span>&#215;</span> l
             </div>
-            <div class="card_info flex items-center flex-col mb-2">
-              <div class="title mb-1 font-bold text-lg">Parallelogram</div>
-              <div class="formula mb-1 text-sm">Area (A) = 0.5<span>&#215;</span>b<span>&#215;</span> h</div>
-              <div class="input_part text-xs mt-5 mb-10">
-                  <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">B <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">h <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm
-              </div>
+            <div class="input_part text-xs mt-5 mb-10">
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >B <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >h <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
             </div>
-            <button class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2">Calculate</button>
           </div>
+          <button
+            class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2"
+          >
+            Calculate
+          </button>
+        </div>
+        <!-- Parallelogram -->
+        <div
+          class="calculation_card rounded-lg relative flex flex-col items-center py-[30px] px-[20px] border-2"
+        >
+          <div class="shape-image mb-6 h-[189px]">
+            <img
+              class="max-w-full h-48"
+              src="./images/parallelogram.png"
+              alt=""
+            />
+          </div>
+          <div class="card_info flex items-center flex-col mb-2">
+            <div class="title mb-1 font-bold text-lg">Parallelogram</div>
+            <div class="formula mb-1 text-sm">
+              Area (A) = 0.5<span>&#215;</span>b<span>&#215;</span> h
+            </div>
+            <div class="input_part text-xs mt-5 mb-10">
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >B <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >h <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
+            </div>
+          </div>
+          <button
+            class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2"
+          >
+            Calculate
+          </button>
+        </div>
 
-          <!-- Rhombus -->
-          <div class="calculation_card rounded-lg relative  flex flex-col items-center py-[30px] px-[20px]  border-2">
-            <div class="shape-image mb-6 h-[189px]">
-              <img class="max-w-full h-48" src="./images/rhombus.png" alt="" />
-            </div>
-            <div class="card_info flex items-center flex-col mb-2">
-              <div class="title mb-1 font-bold text-lg">Rhombus</div>
-              <div class="formula mb-3 text-sm">Area (A) = 0.5<span>&#215;</span>d<sub>2</sub><span>&#215;</span>d<sub>2</sub></div>
-              <div class="input_part text-xs mt-5 mb-10">
-                  <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">d<sub>1</sub> <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">d<sub>2</sub><input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm
-              </div>
-            </div>
-            <button class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2">Calculate</button>
+        <!-- Rhombus -->
+        <div
+          class="calculation_card rounded-lg relative flex flex-col items-center py-[30px] px-[20px] border-2"
+        >
+          <div class="shape-image mb-6 h-[189px]">
+            <img class="max-w-full h-48" src="./images/rhombus.png" alt="" />
           </div>
-<!-- Pentagon -->
-          <div class="calculation_card rounded-lg relative  flex flex-col items-center py-[30px] px-[20px]  border-2">
-            <div class="shape-image mb-6 h-[189px]">
-              <img class="max-w-full h-48" src="./images/pentagon.png" alt="" />
+          <div class="card_info flex items-center flex-col mb-2">
+            <div class="title mb-1 font-bold text-lg">Rhombus</div>
+            <div class="formula mb-3 text-sm">
+              Area (A) = 0.5<span>&#215;</span>d<sub>2</sub
+              ><span>&#215;</span>d<sub>2</sub>
             </div>
-            <div class="card_info flex items-center flex-col mb-2">
-              <div class="title mb-1 font-bold text-lg">Pentagon</div>
-              <div class="formula  text-sm mb-2">Area (A) = 0.5<span>&#215;</span>p<span>&#215;</span> b</div>
-              <div class="input_part text-xs mt-5 mb-10">
-                  <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">p <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">b <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm
-              </div>
+            <div class="input_part text-xs mt-5 mb-10">
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >d<sub>1</sub> <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >d<sub>2</sub><input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
             </div>
-            <button class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2">Calculate</button>
           </div>
-<!-- Ellipse -->
-          <div class="calculation_card rounded-lg relative  flex flex-col items-center py-[30px] px-[20px]  border-2">
-            <div class="shape-image mb-6 h-[189px]">
-              <img class="max-w-full h-48" src="./images/ellipse.png" alt="" />
-            </div>
-            <div class="card_info flex items-center flex-col mb-2">
-              <div class="title mb-1 font-bold text-lg">Triangle</div>
-              <div class="formula mb-1 text-sm"><span>&#8508;</span>ab</div>
-              <div class="input_part text-xs mt-5 mb-10">
-                  <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">a <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded">b <input type="text" class="w-[50px] bg-[#F1F1F1]"/></span> cm
-              </div>
-            </div>
-            <button class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2">Calculate</button>
+          <button
+            class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2"
+          >
+            Calculate
+          </button>
+        </div>
+        <!-- Pentagon -->
+        <div
+          class="calculation_card rounded-lg relative flex flex-col items-center py-[30px] px-[20px] border-2"
+        >
+          <div class="shape-image mb-6 h-[189px]">
+            <img class="max-w-full h-48" src="./images/pentagon.png" alt="" />
           </div>
+          <div class="card_info flex items-center flex-col mb-2">
+            <div class="title mb-1 font-bold text-lg">Pentagon</div>
+            <div class="formula text-sm mb-2">
+              Area (A) = 0.5<span>&#215;</span>p<span>&#215;</span> b
+            </div>
+            <div class="input_part text-xs mt-5 mb-10">
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >p <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >b <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
+            </div>
+          </div>
+          <button
+            class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2"
+          >
+            Calculate
+          </button>
+        </div>
+        <!-- Ellipse -->
+        <div
+          class="calculation_card rounded-lg relative flex flex-col items-center py-[30px] px-[20px] border-2"
+        >
+          <div class="shape-image mb-6 h-[189px]">
+            <img class="max-w-full h-48" src="./images/ellipse.png" alt="" />
+          </div>
+          <div class="card_info flex items-center flex-col mb-2">
+            <div class="title mb-1 font-bold text-lg">Triangle</div>
+            <div class="formula mb-1 text-sm"><span>&#8508;</span>ab</div>
+            <div class="input_part text-xs mt-5 mb-10">
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >a <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
+              <span class="bg-[#F1F1F1] border-1 px-2 py-1 rounded"
+                >b <input type="text" class="w-[50px] bg-[#F1F1F1]"
+              /></span>
+              cm
+            </div>
+          </div>
+          <button
+            class="bg-[#1090D8] text-white font-semibold block w-[85%] py-2 rounded absolute bottom-2"
+          >
+            Calculate
+          </button>
+        </div>
       </section>
       <section class="grid col-span-1 p-5 max-h-[450px] border-2">
-        <div class="font-bold text-sm text-center text-black-500 underline">Area Calculation</div>
+        <div class="font-bold text-sm text-center text-black-500 underline">
+          Area Calculation
+        </div>
       </section>
     </main>
   </body>
